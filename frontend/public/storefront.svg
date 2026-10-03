@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Students and a bulldog walking across a campus in Yale blue">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#001833"/>
+      <stop offset="0.5" stop-color="#00356b"/>
+      <stop offset="1" stop-color="#0c4d86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g fill="#00264d">
+    <rect x="40" y="150" width="120" height="420"/>
+    <rect x="180" y="80" width="64" height="490"/>
+    <polygon points="180,80 212,16 244,80"/>
+    <circle cx="212" cy="118" r="14" fill="#0c335f"/>
+    <rect x="280" y="190" width="140" height="380"/>
+    <rect x="450" y="160" width="100" height="410"/>
+  </g>
+  <g fill="#e7c98a" opacity="0.8">
+    <rect x="60" y="190" width="14" height="18"/>
+    <rect x="94" y="190" width="14" height="18"/>
+    <rect x="60" y="236" width="14" height="18"/>
+    <rect x="94" y="236" width="14" height="18"/>
+    <rect x="306" y="230" width="14" height="18"/>
+    <rect x="346" y="230" width="14" height="18"/>
+    <rect x="386" y="230" width="14" height="18"/>
+    <rect x="472" y="200" width="12" height="16"/>
+    <rect x="508" y="200" width="12" height="16"/>
+  </g>
+  <g fill="#0a3058">
+    <ellipse cx="680" cy="250" rx="54" ry="90"/>
+    <rect x="670" y="320" width="20" height="120"/>
+  </g>
+  <path d="M980 430 C1140 400 1320 400 1600 450 V640 H980 Z" fill="#12365c"/>
+  <path d="M980 500 C1160 470 1360 480 1600 520" fill="none" stroke="#1d4e7a" stroke-width="8"/>
+
+  <g transform="translate(1040,250)">
+    <ellipse cx="10" cy="250" rx="36" ry="8" fill="#071e36" opacity="0.4"/>
+    <path d="M-24 78 h18 v36 h-14 z" fill="#001833"/>
+    <path d="M-22 70 Q-30 132 -8 172 L20 172 Q30 122 16 70 Q6 58 0 60 Q-10 58 -22 70" fill="#f6efe4"/>
+    <path d="M-16 80 Q2 100 18 78" fill="none" stroke="#00356b" stroke-width="5"/>
+    <circle cx="0" cy="46" r="19" fill="#e4b48c"/>
+    <path d="M-17 44 Q-2 24 18 40 Q8 32 0 34 Q-10 30 -17 44" fill="#2a211c"/>
+    <path d="M-8 170 L-20 236" stroke="#142033" stroke-width="9" stroke-linecap="round"/>
+    <path d="M12 170 L26 232" stroke="#142033" stroke-width="9" stroke-linecap="round"/>
+    <rect x="24" y="110" width="18" height="24" rx="2" fill="#f04f36"/>
+  </g>
+
+  <g transform="translate(1188,268)">
+    <ellipse cx="8" cy="236" rx="38" ry="8" fill="#071e36" opacity="0.4"/>
+    <path d="M20 86 h18 v42 h-16 z" fill="#001833"/>
+    <path d="M-20 74 Q-28 142 -6 180 L22 180 Q32 130 16 74 Q6 62 0 64 Q-10 62 -20 74" fill="#00356b"/>
+    <path d="M-14 88 Q4 112 20 84" fill="none" stroke="#f04f36" stroke-width="6"/>
+    <circle cx="2" cy="48" r="19" fill="#8d5a3c"/>
+    <path d="M-15 42 Q2 20 20 44 Q8 32 0 34 Q-12 30 -15 42" fill="#1a120e"/>
+    <path d="M-8 178 L-24 242" stroke="#102033" stroke-width="9" stroke-linecap="round"/>
+    <path d="M14 178 L30 236" stroke="#102033" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1328,290)">
+    <ellipse cx="6" cy="214" rx="34" ry="8" fill="#071e36" opacity="0.4"/>
+    <path d="M-26 68 h16 v34 h-12 z" fill="#0c2340"/>
+    <path d="M-16 64 Q-24 124 -4 160 L18 160 Q26 114 12 64 Q2 54 -2 56 Q-10 54 -16 64" fill="#f04f36"/>
+    <circle cx="-2" cy="42" r="17" fill="#f0c7a0"/>
+    <path d="M-15 38 Q-1 18 15 38 Q4 28 -2 30 Q-11 26 -15 38" fill="#4a3428"/>
+    <path d="M-6 158 L-18 218" stroke="#142033" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10 158 L22 214" stroke="#142033" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1468,348) scale(0.95)">
+    <ellipse cx="48" cy="122" rx="62" ry="10" fill="#071e36" opacity="0.35"/>
+    <ellipse cx="34" cy="78" rx="52" ry="32" fill="#f7f1e6"/>
+    <ellipse cx="90" cy="54" rx="34" ry="28" fill="#f7f1e6"/>
+    <ellipse cx="66" cy="34" rx="10" ry="15" fill="#d9c4a4"/>
+    <ellipse cx="108" cy="32" rx="9" ry="13" fill="#d9c4a4"/>
+    <path d="M74 42 Q94 52 112 40" fill="none" stroke="#c9b394" stroke-width="2.2"/>
+    <path d="M76 52 Q96 62 114 50" fill="none" stroke="#c9b394" stroke-width="2.2"/>
+    <ellipse cx="118" cy="64" rx="18" ry="12" fill="#edd9b8"/>
+    <ellipse cx="132" cy="62" rx="7" ry="5" fill="#1c1c1c"/>
+    <circle cx="100" cy="50" r="3.4" fill="#1c1c1c"/>
+    <path d="M112 76 Q122 84 132 76" fill="none" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M80 78 Q102 94 118 74" fill="none" stroke="#00356b" stroke-width="8" stroke-linecap="round"/>
+    <rect x="4" y="100" width="11" height="22" rx="4" fill="#f7f1e6"/>
+    <rect x="26" y="102" width="11" height="22" rx="4" fill="#f7f1e6"/>
+    <rect x="52" y="102" width="11" height="20" rx="4" fill="#f7f1e6"/>
+    <rect x="72" y="100" width="11" height="20" rx="4" fill="#f7f1e6"/>
+    <path d="M-8 68 Q-20 86 -6 94" fill="none" stroke="#f7f1e6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

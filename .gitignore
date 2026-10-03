@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.session_secret
+output/audit_trail.lock
+
+# Shop data stays local. Do not publish the database, product images, or the zip.
+data/
+data.zip

@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2026-10-03T18:55:37.336601+00:00",
+    "tool": "search_products",
+    "args": "query=hoodie",
+    "result": "safety self-check, not a shopper turn",
+    "stop_reason": ""
+  },
+  {
+    "time": "2026-10-03T18:55:37.337631+00:00",
+    "tool": "",
+    "args": "",
+    "result": "second append kept the first row",
+    "stop_reason": "self_check"
+  },
+  {
+    "time": "2026-10-03T18:57:14.598156+00:00",
+    "tool": "",
+    "args": "",
+    "result": "blocked before the model",
+    "stop_reason": "refused"
+  },
+  {
+    "time": "2026-10-03T18:57:30.635455+00:00",
+    "tool": "search_products",
+    "args": "query=basic hoodie",
+    "result": "25 matches: basic-hoodie-big-yale, brooks-brothers-double-knit-full-zip-hoodie-yale, champion-reverse-weave-hoodie-1",
+    "stop_reason": ""
+  },
+  {
+    "time": "2026-10-03T18:57:31.905818+00:00",
+    "tool": "get_product_info",
+    "args": "product_id=basic-hoodie-big-yale",
+    "result": "Basic Hoodie Big Yale $68",
+    "stop_reason": ""
+  },
+  {
+    "time": "2026-10-03T18:57:33.655643+00:00",
+    "tool": "",
+    "args": "",
+    "result": "cards=1",
+    "stop_reason": "completed"
+  }
+]

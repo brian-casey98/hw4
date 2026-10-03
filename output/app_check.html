@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App check — Campus Customs</title>
+    <style>
+      :root {
+        color: #142033;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+      body {
+        margin: 0;
+        background: #f4ecdf;
+      }
+      header,
+      main {
+        width: min(980px, calc(100% - 2rem));
+        margin: 0 auto;
+      }
+      header {
+        padding: 1.5rem 0 0.5rem;
+      }
+      h1 {
+        margin: 0 0 0.35rem;
+        font-size: 2rem;
+        color: #00356b;
+      }
+      header p,
+      .check p {
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.45;
+      }
+      .check {
+        margin: 1.25rem 0 2rem;
+        padding: 1rem 1rem 1.15rem;
+        background: #fffdf8;
+        border-top: 4px solid #00356b;
+      }
+      h2 {
+        margin: 0 0 0.75rem;
+        font-size: 1.35rem;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid #e3d4c0;
+      }
+      .check p {
+        margin: 0.75rem 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>App check — Campus Customs</h1>
+      <p>Three checks of the live shop. Each section is the screenshot, then what it proves.</p>
+    </header>
+    <main>
+      <section class="check">
+        <h2>1. Chat checks inventory, and does not invent the numbers</h2>
+        <img src="app_check_images/inventory.png" alt="Chat saying the bomber jacket is $98 and medium is out of stock, next to the $98 product card" />
+        <p>
+          Asked on the Brooks Brothers Bomber Jacket page, the chat answered that the jacket is $98 and that medium is out of stock, with 0 left.
+          That matches the database: catalogue price 98, and inventory size M has quantity 0. The card on the page shows the same $98 price.
+        </p>
+      </section>
+      <section class="check">
+        <h2>2. A category question puts matching cards on the page</h2>
+        <img src="app_check_images/hoodies.png" alt="Home shelf titled Matching pieces after the question what hoodies do you have, showing hoodie product cards" />
+        <p>
+          After the question “what hoodies do you have?”, the shelf changed to Matching pieces and filled with hoodie cards: photo, name, and price.
+          The line “From your question” shows those cards came from that question, not from the usual featured row.
+        </p>
+      </section>
+      <section class="check">
+        <h2>3. Products page search bar</h2>
+        <img src="app_check_images/search.png" alt="Products page search box containing pierson, with two Pierson College results" />
+        <p>
+          Typing “pierson” in the Products page search box narrowed the catalogue to 2 pieces: the Pierson College Crewneck at $58 and the Pierson Logo T Shirt at $32.
+          The heading switched to Search results, so a shopper can find a college without scrolling the full shelf.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
